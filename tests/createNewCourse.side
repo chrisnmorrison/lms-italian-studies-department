@@ -1,0 +1,334 @@
+{
+  "id": "3eb0fbd9-0e04-4776-8a16-c8535c23a716",
+  "version": "2.0",
+  "name": "createNewCourse",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "89a1b59d-809b-4bf5-9d0d-d32ae7c69cb8",
+    "name": "testAddNewCourse",
+    "commands": [{
+      "id": "909f207b-b796-4166-9149-2aee08dcb1c9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4f45756-8ac9-49ab-97c7-81da7040c0f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f6ac5da-ef68-4270-ab18-029b730e551f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .cursor-pointer",
+      "targets": [
+        ["css=div:nth-child(2) > .cursor-pointer", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li", "xpath:idRelative"],
+        ["xpath=//div[2]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "affb19e3-0afc-4d8a-a665-0742c59dad03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-block .inline-flex-1",
+      "targets": [
+        ["css=.inline-block .inline-flex-1", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/li/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e662f71b-839f-42a8-bd8c-90e26a42d2a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.inline-block .inline-flex-1",
+      "targets": [
+        ["css=.inline-block .inline-flex-1", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/li/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51e44816-5554-4c53-8a90-9682870e647f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.inline-block .inline-flex-1",
+      "targets": [
+        ["css=.inline-block .inline-flex-1", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/li/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20aea4c2-0115-4a9f-80bd-a6ab8caf3331",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-outlined",
+      "targets": [
+        ["css=.MuiButton-outlined", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div[2]/div/a/button", "xpath:idRelative"],
+        ["xpath=//div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faaa04fe-50c4-4789-b8c3-3ecaf3cbe7b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-outlined",
+      "targets": [
+        ["css=.MuiButton-outlined", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div[2]/div/a/button", "xpath:idRelative"],
+        ["xpath=//div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f645d1c5-7763-4dbe-abd5-580ecffa5e08",
+      "comment": "",
+      "command": "click",
+      "target": "id=courseName",
+      "targets": [
+        ["id=courseName", "id"],
+        ["xpath=//input[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c82094cb-ac8f-48ad-ba7d-b1effd205b2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=courseName",
+      "targets": [
+        ["id=courseName", "id"],
+        ["xpath=//input[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AddNewCourseTest"
+    }, {
+      "id": "011fc404-e00c-4ca1-8511-c0a961367032",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[2]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6c6360e-22c0-4e87-bcba-13fcbefb76bf",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[2]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "TEST09876"
+    }, {
+      "id": "eac59875-3d6f-4b46-a9c4-a384ed713ea4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[3]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7efc12e1-c158-4093-a6f2-e4a81158950e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[3]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "T"
+    }, {
+      "id": "df678a03-7779-4e40-a942-bde3d4a18601",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[4]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4edf15c6-3031-48a6-99db-79a52a6d6462",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[4]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "2022"
+    }, {
+      "id": "e53c473f-e79b-4602-bffe-d1ab940a626a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select[@id='courseName']",
+      "targets": [
+        ["xpath=//select[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0163d2f-c72d-4c6e-aa85-77cb162c6d0b",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//select[@id='courseName']",
+      "targets": [],
+      "value": "label=Fall"
+    }, {
+      "id": "299355ff-5c11-4e0c-b67d-315e4acee01f",
+      "comment": "",
+      "command": "click",
+      "target": "id=virtualClass",
+      "targets": [
+        ["id=virtualClass", "id"],
+        ["xpath=//input[@id='virtualClass']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fab27fb-68da-4fcf-9a48-0926971416dc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[5]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cdf6891-cc90-4315-a081-af73803f87ab",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[5]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "Course Test Building"
+    }, {
+      "id": "1320d01d-e297-46f4-be16-fa3b33407e07",
+      "comment": "",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//select[@id='location']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6240e817-6a18-42a0-b7f6-268c766f8db3",
+      "comment": "",
+      "command": "select",
+      "target": "id=location",
+      "targets": [],
+      "value": "label=Friday"
+    }, {
+      "id": "bd95f8af-0d27-491f-ba18-62b0a3da6b6e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[6]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe5e174-7b7f-42f4-ad53-11162f1b707b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[6]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "16:31"
+    }, {
+      "id": "b41a4154-976e-4f15-972b-12a190e932fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(24)",
+      "targets": [
+        ["css=label:nth-child(24)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/label[13]", "xpath:idRelative"],
+        ["xpath=//label[13]", "xpath:position"],
+        ["xpath=//label[contains(.,'Course Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7113be20-a0e1-4f80-9d1a-12dd5948eae3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea[@id='courseName']",
+      "targets": [
+        ["xpath=//textarea[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Adding New Course Test"
+    }, {
+      "id": "b24d53d6-2ef4-4de3-ab6c-53b9fb6e5ba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8352463f-1d61-453d-96aa-1c13979bc913",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83da9314-c204-4745-b52a-247cc4758cfa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["89a1b59d-809b-4bf5-9d0d-d32ae7c69cb8"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

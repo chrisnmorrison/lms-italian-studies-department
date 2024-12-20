@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Jost', sans-serif;
+}
+
+.sidebar-and-main{
+  display: flex;
+}
+
+.lg-title{
+  font-size: 2.6rem;
+}
+
+.md-title{
+  font-size: 2rem;
+}
+
+.italian-green{
+  color: #009344;
+}
+
+.italian-red{
+  color: #CF2734;
+}
+
+.italian-white{
+  color: white;
+}
+
+.sidebar-icon{
+  height: 31px;
+  width: auto;
+ 
+}
+
+#default-sidebar{
+  /* top: 93px; */
+  border-right: 1px solid rgb(50, 50, 50);
+width: 18vw;
+height: 100vw;
+background: #202020;
+}
+
+.top-nav{
+  border-bottom: 1px solid rgb(71, 71, 71);
+
+}
+
+.sidebar-items{
+  width: 18vw;
+  padding-left: 0rem;
+
+  
+}
+
+.sidebar-items span {
+ font-size: 1.2rem;   
+}
+
+.sidebar-items li{
+  padding: .75rem 2rem .75rem 1rem;
+  margin-left: 1rem;
+}
+
+select{
+  color:rgb(34, 34, 34)
+}
+
+label{
+  /* color: #2f3743; *//*Hanieh - changed this because form labels werent showing with same colour background*/
+  color: #009344;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.2rem 0 .6rem 0;
+
+}
+
+label.sm {
+  font-size: 1rem;  
+  font-weight: 500;
+}
+
+/* Table styles for dark mode */
+.table-dark {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-dark th,
+.table-dark td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #555;
+  color: #fff;
+}
+
+/* Header styles */
+.table-dark thead th {
+  background-color: #333;
+  font-weight: bold;
+}
+
+/* Alternate row styles */
+.table-dark tbody tr:nth-child(even) {
+  background-color: #444;
+}
+
+/* Hover effect */
+.table-dark tbody tr:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* Example of striped rows */
+.table-dark-striped tbody tr:nth-child(odd) {
+  background-color: #444;
+}
+
+/* Example of centered text in cells */
+.table-dark-centered th,
+.table-dark-centered td {
+  text-align: center;
+}
+
+/* Example of a bordered table */
+.table-dark-bordered th,
+.table-dark-bordered td {
+  border: 1px solid #555;
+}
+
+/* Example of a table with rounded corners */
+.table-dark-rounded {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Example of a responsive table */
+.table-dark-responsive {
+  overflow-x: auto;
+}
+
+/* Example of table header with sorting icons */
+.table-dark-sortable th {
+  position: relative;
+}
+
+.table-dark-sortable th::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.table-dark-sortable.asc::after {
+  border-top-color: #fff;
+}
+
+.table-dark-sortable.desc::after {
+  border-top-color: #fff;
+  transform: rotate(180deg);
+}
+
+/* Example of a table with fixed header */
+.table-dark-fixed-header thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #333;
+}
+
+.small-form{
+  max-width: 25rem;
+}
+
+.form-sm{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  background-color: white;
+  margin: 1rem auto;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 0 3rem rgba(255, 255, 255, 0.237);
+  
+}
+
+ .form-sm textarea{
+  width: 25rem;
+}
+
+.form-sm button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #2c59d3 !important;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-lg{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  background-color: white;
+  margin: 1rem auto;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 0 3rem rgba(255, 255, 255, 0.237);
+  width: 70%;
+}
+
+.form-lg .btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #2c59d3 !important;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    color: #374151;
+  line-height: 1.25;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+
+
+  border-width: 1px;
+
+
+  border-radius: 0.25rem;
+}
+
+form button:hover{
+ background-color: #1842b6;
+}
+
+.btn-primary{
+  background-color: #2c59d3 !important;
+}
+
+.btn-secondary{
+
+}
+
+.ql-formats button{
+  background-color: unset !important;
+  margin-top: unset !important;
+}
+
+.ql-editor{
+  color: #374151;
+}
+
+.new-q-wrapper{
+  border: 1px solid #dbdbdb;
+  padding: 1rem;
+}
+
+.radio-Btn-Container{
+  width: 7rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.date-picker-container{
+  margin: 2rem 0;
+}
+
+.success-message{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: darkgreen;
+  font-size: 1.1rem;
+  font-weight: 600;
+}

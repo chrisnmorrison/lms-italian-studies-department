@@ -1,0 +1,303 @@
+{
+  "id": "c8b85557-1e31-4a21-bdd6-f7de40ad8ad9",
+  "version": "2.0",
+  "name": "ItalianLMS",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "7cb5bc57-7ead-47da-8de7-a3b6fd764de0",
+    "name": "TestEditCourse",
+    "commands": [{
+      "id": "85365d44-3733-4c3f-9a69-a264087273cf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84deb0da-cc3e-404b-b96c-0675bd58dbba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-block .inline-flex-1",
+      "targets": [
+        ["css=.inline-block .inline-flex-1", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/li/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5068ce5-3e5e-48f1-b63a-b663e375ac9c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.inline-block .inline-flex-1",
+      "targets": [
+        ["css=.inline-block .inline-flex-1", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/li/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5738c3-def4-4d40-b097-fd46486c4ba9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.inline-block .inline-flex-1",
+      "targets": [
+        ["css=.inline-block .inline-flex-1", "css:finder"],
+        ["xpath=//aside[@id='default-sidebar']/div/ul/div[2]/li/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/li/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4180e032-d5f1-4cc5-a8ae-8bb18f5900b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .MuiButton-containedPrimary",
+      "targets": [
+        ["css=tr:nth-child(2) .MuiButton-containedPrimary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div[2]/table/tbody/tr[2]/td[7]/a[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]/a[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "978cf397-8c73-4f3c-b682-6ccaf3ab6f46",
+      "comment": "",
+      "command": "click",
+      "target": "id=courseName",
+      "targets": [
+        ["id=courseName", "id"],
+        ["xpath=//input[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30531254-8d30-40ce-9e73-c1b128b63335",
+      "comment": "",
+      "command": "type",
+      "target": "id=courseName",
+      "targets": [
+        ["id=courseName", "id"],
+        ["xpath=//input[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Testing Name Testing"
+    }, {
+      "id": "d270764c-83ef-4a48-a779-18d2e322f8a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gap-x-36 > .w-full",
+      "targets": [
+        ["css=.gap-x-36 > .w-full", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb753df4-ec71-46ac-8df8-a531de59b924",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[2]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "TEST54321"
+    }, {
+      "id": "4bed056c-8c6c-4a6f-9f1f-7db9dfa4ec5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-lg",
+      "targets": [
+        ["css=.form-lg", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63a86d48-f822-4641-901e-a869ce8a93e5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[3]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "H"
+    }, {
+      "id": "9eda4055-9432-47b3-9151-bab592639ecc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select[@id='courseName']",
+      "targets": [
+        ["xpath=//select[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0503d291-891c-47dc-973a-de41beeadbd3",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//select[@id='courseName']",
+      "targets": [],
+      "value": "label=Spring"
+    }, {
+      "id": "60ad6188-25ff-487a-aa64-d2c028302470",
+      "comment": "",
+      "command": "click",
+      "target": "id=virtualClass",
+      "targets": [
+        ["id=virtualClass", "id"],
+        ["xpath=//input[@id='virtualClass']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "593d4747-d60d-4044-b682-7ef4b08c7f85",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[5]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38914acb-147e-42c1-907a-deed49716969",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[5]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "Testing Building Testing"
+    }, {
+      "id": "27df7feb-1174-4a91-ab80-1ced93d8143f",
+      "comment": "",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//select[@id='location']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07717c59-98a7-4df7-96ed-7edae3ab2dc7",
+      "comment": "",
+      "command": "select",
+      "target": "id=location",
+      "targets": [],
+      "value": "label=Tuesday"
+    }, {
+      "id": "c2a03d6f-df94-4eb8-9303-098af1f337df",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[6]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f83407-eb0c-417a-9b96-cc1a4fec89fb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@id='courseName'])[6]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd0c907-e343-414c-a672-fa6d11b62ff7",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@id='courseName'])[6]",
+      "targets": [
+        ["xpath=(//input[@id='courseName'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "14:46"
+    }, {
+      "id": "663ba59e-bf0a-475b-a7a8-653e5f098776",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(24)",
+      "targets": [
+        ["css=label:nth-child(24)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/label[13]", "xpath:idRelative"],
+        ["xpath=//label[13]", "xpath:position"],
+        ["xpath=//label[contains(.,'Course Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b99fb559-ee9b-4c73-8ac8-559ea598fa58",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea[@id='courseName']",
+      "targets": [
+        ["xpath=//textarea[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "894985c1-d617-4f6d-978c-4e438654ccb5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea[@id='courseName']",
+      "targets": [
+        ["xpath=//textarea[@id='courseName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testing course editing try"
+    }, {
+      "id": "e04f1a5c-cc3c-4161-b5b3-67c1bcdd3d5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/main/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd24c79e-da56-44c3-a778-20e2f7a42da0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2e5a751e-d275-4e72-a7d8-c1420be16918",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7cb5bc57-7ead-47da-8de7-a3b6fd764de0"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
