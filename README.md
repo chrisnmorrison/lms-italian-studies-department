@@ -4,7 +4,7 @@
 
 This project is a **Learning Management System (LMS)** that I developed as part of my capstone project during the final two semesters of my Computer Engineering Technology / Computing Science studies. It was built for the OttawaU Italian Studies Department.
 
-As the team lead for a group of five students, I was responsible for guiding the design, architecture, and overall direction of the project. Our goal was to build an LMS to serve as the backend for a mobile app, providing dynamic course management features.
+As the team lead for a group of five students, I was responsible for guiding the design, architecture, and overall direction of the project. Our goal was to build an LMS to serve as the "backend" for a mobile app, providing dynamic course management features.
 
 We successfully delivered a working solution to the client, who had several additional ideas for improvements before releasing it to students. As of now, the LMS is fully operational and deployed on a private website, actively used for managing content that the mobile app pulls in. However, the mobile app itself is still in development.
 
@@ -24,7 +24,7 @@ As the team lead, my responsibilities included:
 - Writing comprehensive documentation for the system and its features.
 - Overseeing the integration of key functionalities, such as user management, course management, and interactive video-based content.
 
-I worked closely with the mobile app development team to ensure the LMS could support a dynamic learning environment with interactive content.
+I worked closely with the student development team to ensure the LMS and mobile app worked well together and were intuitive for both users and teachers/administrators. We spent a lot of time designing the app before coding, ensuring our UI/UX groundwork was built, which made development much easier.
 
 ## Features of the LMS
 
@@ -126,4 +126,4 @@ The LMS tracks user progress, including video completion and quiz performance. A
 
 ### 6. Unique Design
 
-Both the LMS and mobile app were designed by working closely with the client. They use some of the client's favourite colours, and since it was build for the OttawaU Italian Studies Department, use the colors of Italy.
+Both the LMS and mobile app were designed by working closely with the client. They use some of the client's favourite colours, and since it was built for the OttawaU Italian Studies Department, use the colors of Italy.
